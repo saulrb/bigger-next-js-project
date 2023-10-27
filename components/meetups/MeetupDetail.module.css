@@ -1,0 +1,49 @@
+.deatil {
+  text-align: center;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  background-color: #fff;
+}
+
+.detail img {
+  width: 100%;
+  height: 20rem;
+  background-color: #ccc;
+  background-image: url('/images/meetup.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.address {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .deatil {
+    width: 70rem;
+  }
+}
